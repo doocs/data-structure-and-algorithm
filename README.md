@@ -7,7 +7,9 @@
 [![issues](https://badgen.net/github/open-issues/doocs/data-structure-and-algorithm)](https://github.com/doocs/data-structure-and-algorithm/issues)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 
-数据结构与算法知识点全覆盖，内容持续更新。
+> `Algorithms` + `Data Structures` = `Programs`,  — Niklaus Wirth
+
+目前来说，程序员的面试门槛越来越高，很多一线互联网公司的技术面试，都或多或少会考察数据结构与算法相关的题目，掌握数据结构与算法尤为重要。如果你不想永远做一名“代码搬运工”，那就花点时间一起来学习吧。本项目涵盖数据结构与算法知识点所有知识点，内容将在后续不断更新，欢迎持续关注项目最新动态。
 
 ## 数据结构与算法概述
 ### 看几个实际编程中遇到的问题
