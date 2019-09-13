@@ -6,4 +6,4 @@
 
 [Organization](https://github.com/doocs/doocs.github.io)
 [Author](https://github.com/yanglbme)
-[Get Started](#数据结构与算法©)
+[Get Started](#必知必会：数据结构与算法)
