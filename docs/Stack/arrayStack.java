@@ -3,7 +3,7 @@ package com.Fundamentals.Stack;
 import java.lang.*;
 
 /*define the manipulation of stack*/
-public interface Stackkk<T>
+public interface arrayStack<T>
 {
     int length();
 
@@ -24,7 +24,7 @@ public interface Stackkk<T>
 
 /*THE ARRAY OF STACK*/
 
-public class ImpArrayStac<T> implements Stackkk<T> {
+public class ImpArrayStac<T> implements arrayStack<T> {
 
     private T[] t = (T[]) new Object[16]; //stack items
     private int size = 0;//number of items
