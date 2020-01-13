@@ -1,4 +1,4 @@
-package io.github.doocs.array;
+package array;
 
 /**
  * 手撸一个动态数组（类似Java中的ArrayList）

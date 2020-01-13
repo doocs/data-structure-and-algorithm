@@ -1,4 +1,5 @@
-import io.github.doocs.array.DynamicArray;
+package array;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,7 +15,7 @@ public class DynamicArrayTest {
     private DynamicArray<Integer> dynamicArray = new DynamicArray<>(2);
 
     @Test
-    public void test() {
+    public void testDynamicArray() {
         dynamicArray.add(1); // [1]
         dynamicArray.add(2); // [1, 2]
         dynamicArray.add(3); // [1, 2, 3]
@@ -31,7 +32,5 @@ public class DynamicArrayTest {
         assertEquals(1, dynamicArray.indexOf(100));
         assertTrue(dynamicArray.contains(99));
         assertFalse(dynamicArray.contains(98));
-
     }
-
 }
