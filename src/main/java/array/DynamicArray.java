@@ -136,7 +136,29 @@ public class DynamicArray<E> {
             elements[i - 1] = elements[i];
         }
         elements[--size] = null;
+
+        // 裁剪数组
+        trim();
+
         return oldElement;
+    }
+
+    /**
+     * 数组缩容
+     */
+    private void trim() {
+        int capacity = elements.length;
+        if (size >= (capacity >> 1) || capacity <= DEFAULT_CAPACITY) {
+            // 不进行缩容
+            return;
+        }
+
+        // 缩容
+        int newCapacity = capacity >> 1;
+        E[] newElements = (E[]) new Object[newCapacity];
+        System.arraycopy(elements, 0, newElements, 0, size);
+        elements = newElements;
+
     }
 
     /**

@@ -10,7 +10,7 @@ jobs:
     name: Algorithms Test
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [ubuntu-latest]
         java-version: [1.8]
     runs-on: ${{ matrix.os }}
 
