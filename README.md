@@ -19,8 +19,8 @@
 
 
 ### 队列
-- 队列的一个使用场景
-- 队列介绍
+- [队列介绍](/docs/queue-introduction.md)
+- [队列的一个使用场景](/docs/queue-usage.md)
 - 数组模拟队列的思路
 - 数组模拟环形队列
 
