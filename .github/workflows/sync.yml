@@ -16,10 +16,10 @@ jobs:
           source-repo: git@github.com:doocs/data-structure-and-algorithm.git
           destination-repo: git@gitee.com:Doocs/data-structure-and-algorithm.git
 
-      - name: Build Gitee Pages
-        uses: yanglbme/gitee-pages-action@main
-        with:
-          gitee-username: yanglbme
-          gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: doocs/data-structure-and-algorithm
-          branch: main
+      # - name: Build Gitee Pages
+      #   uses: yanglbme/gitee-pages-action@main
+      #   with:
+      #     gitee-username: yanglbme
+      #     gitee-password: ${{ secrets.GITEE_PASSWORD }}
+      #     gitee-repo: doocs/data-structure-and-algorithm
+      #     branch: main
