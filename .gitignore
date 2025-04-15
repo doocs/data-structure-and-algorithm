@@ -32,3 +32,8 @@ local.properties
 gradle.properties
 
 .vscode
+
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+node_modules
