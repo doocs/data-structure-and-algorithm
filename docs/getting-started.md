@@ -1,6 +1,6 @@
 # 必知必会：数据结构与算法
 
-[![java-ci](https://github.com/doocs/data-structure-and-algorithm/workflows/Java%20CI/badge.svg)](https://github.com/doocs/data-structure-and-algorithm/actions)
+[![deploy](https://github.com/doocs/data-structure-and-algorithm/actions/workflows/deploy.yml/badge.svg)](https://github.com/doocs/data-structure-and-algorithm/actions/workflows/deploy.yml)
 [![prs-welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](https://doocs.github.io/#/?id=how-to-join)
 [![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/doocs)

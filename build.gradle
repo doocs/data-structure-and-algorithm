@@ -12,5 +12,9 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.0-RC1'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+}
+
+test {
+    useJUnitPlatform()
 }
